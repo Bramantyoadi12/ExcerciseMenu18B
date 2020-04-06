@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarBangun"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bangun_datar"
+        android:layout_marginTop="17dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/persegi"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="110dp"
+        android:background="@drawable/border1"
+        android:text="PERSEGI"
+        />
+    <Button
+        android:id="@+id/lingkaran"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/lingkaran"
+        android:text="LINGKARAN"
+        />
+    <Button
+        android:id="@+id/persegiPanjang"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:textSize="11dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/border2"
+        android:text="PERSEGI PANJANG"
+        />
+    <Button
+        android:id="@+id/segitiga"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/segitigalayar"
+        android:layout_marginTop="285dp"
+        android:text="SEGITIGA"
+        android:layout_marginLeft="260dp"
+        />
+    <Button
+        android:id="@+id/trapesium"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/trapesiumlayar"
+        android:layout_marginTop="390dp"
+        android:text="TRAPESIUM"
+        android:layout_marginLeft="90dp"
+        />
+</RelativeLayout>

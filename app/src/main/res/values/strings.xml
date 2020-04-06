@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Excercise Menu 18 B</string>
+    <string name="judul">LOGIN USER</string>
+    <string name="un">Username</string>
+    <string name="ps">Password</string>
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="hsl">Ini tampilan Hasil</string>
+    <string name="btn">Sign-In</string>
+    <string name="bangun_datar">Menu Hitung Bangun Datar</string>
+</resources>
